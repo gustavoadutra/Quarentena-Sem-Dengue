@@ -1,0 +1,127 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+/*tirando o risco padrão*/
+a{
+	text-decoration: none;
+}
+
+/*icone*/
+header img{
+	width: 100px;
+	height: auto;
+	float: left;
+}
+
+
+
+/*bloco de links*/
+header nav{
+	margin: auto;
+	overflow: auto;
+	height: auto;
+	padding-top: 30px;
+	padding-bottom: 10px;
+
+}
+/*bloco de links específicos*/
+header nav ul li{
+	display: inline-block;
+	padding-right: 5px;
+	list-style: none;
+	color: black;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+
+}
+header nav ul li a{
+	text-align: center;
+	opacity: 0.6;
+	transition: 0.5s;
+}
+
+
+/*para todo session*/
+.conteudo{
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #D3D3D3;
+	margin: auto;
+	height: auto;
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 16px;
+}
+
+
+
+/*pé*/
+footer{
+	background-color: black;
+	overflow: auto;
+	margin: auto;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.linkfooter{
+	float: right;
+	padding-right: 100px;
+	padding-top: 10px;
+	list-style-type: none;
+	padding-bottom: 30px;
+}
+.linkfooter li{
+	padding-top: 15px;
+	font-size: 15px;
+}
+/*link sobre e fontes*/
+.linkfooter li a{
+	color: white;
+}
+
+/*barra de redes sociais*/
+#redes{
+	width: auto;
+	height: auto;
+	float: left;
+	padding-left: 50px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+#redes ul{
+	list-style: none;
+}
+#redes ul li{
+	display: inline-block;
+}
+#redes ul li a img{
+	width: 40px;
+}
+footer p{
+	padding-top: 170px;
+	padding-left: 220px;
+	font-size: 10px; 
+}
+section img{
+	transition: 2s;
+}
+
+
+/*hovers*/
+footer a:hover{
+	color: #D3D3D3;
+}
+header nav ul li a:hover{
+	opacity: 1;
+}
+section img:hover{
+	-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
