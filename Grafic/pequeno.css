@@ -49,6 +49,8 @@ header nav ul li a{
 	height: auto;
 	overflow: auto;
 	font-size: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 
